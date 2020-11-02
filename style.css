@@ -1,0 +1,118 @@
+﻿body
+{
+	background-color: gray;
+}
+
+#root {
+	position: relative;
+	width: 80%;
+	margin: auto;
+	background-color: white;
+	border-radius: 25px;
+}
+
+#header {
+	position: relative;
+	background-color: darkgrey;
+	top: 25px;
+	margin-bottom: 50px;
+}
+
+#logo {
+	position: relative;
+	left: 3%;
+	height: 150px;
+	width: 300px;
+}
+
+.logoimage {
+	position: relative;
+	margin-top: 25px;
+	height: 100px;
+	width: 300px;
+}
+
+#navbar {
+	position: relative;
+	background-color: black;
+	height: 30px;
+}
+
+#product{
+	position: relative;
+	background-color: lightgray;
+	width: 95%;
+	height: 500px;
+	margin: auto;
+	border-radius: 20px;
+}
+
+#productphoto {
+	position: absolute;
+	width: 30%;
+	margin-left: 3%;
+	top: 15px;
+}
+
+.productimage {
+	position: relative;
+	width: 100%;
+}
+
+#productinfo {
+	position: absolute;
+	width: 55%;
+	left: 35%;
+
+}
+
+#producttitle {
+	
+}
+
+.producttitletext {
+
+}
+
+#productprice {
+
+}
+
+.productundertitletext {
+
+}
+
+#producttext {
+
+}
+
+.productdescriptiontext {
+
+}
+
+.productbulletpoints {
+
+}
+
+#producttablewrapper {
+	position: relative;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+#producttable {
+	width: 100%;
+	margin: auto;
+	margin-top: 100px;
+}
+
+.frontproductimage {
+	height: 100px;
+	width: 100px;
+}
+
+#footer {
+	text-align: center;
+	padding: 15px;
+}

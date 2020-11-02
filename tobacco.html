@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <title>The Great Exchange</title>
+    <title>Commodity</title>
 </head>
 <body>
 <div id = "root">
     <div id = "header">
         <div id = "logo">
-            <img src = "logoplaceholder.png" alt = "Page Logo" class = "logoimage" />
+            <a href = "index.html"><img src = "logo.png" alt = "Page Logo" class = "logoimage" /></a>
         </div>
         <div id = "navbar">
         </div>
@@ -29,13 +29,17 @@
             <div id = "productnation">
                 <h2 class = "productundertitletext">America</h2>
             </div>
+            <div id = "productbuttons">
+                <div id = "addtocart" onclick = "document.getElementById('sarcasm').style.display = 'block';"><h3>Add to Cart</h3></div> <div id = "buyitnow" onclick = "document.getElementById('sarcasm').style.display = 'block';"><h3>Buy it Now</h3></div>    
+            </div>
+            <div id = "sarcasm" onclick = "document.getElementById('sarcasm').style.display = 'none';"><p>Apologies, you appear to be trying to order from the year 2020. This site is for 18th century trade only.</p></div>
             <div id = "producttext">
-                <p class = "productdescriptiontext">One lightly used female, well trained, capable of cooking basic soups and the occasional pasta dish. Also a model.</p>
+                <p class = "productdescriptiontext"></p>
                 <ul class = "productbulletpoints">
-                    <li>Anorexic food requirements</li>
-                    <li>Bi-lingual... among bi-other things</li>
-                    <li>Yes, I am a fucking pervert</li>
-                    <li>Don't judge me, motherfucker, you're the one trying to buy women.</li>
+                    <li>Sold by the pound</li>
+                    <li>From Chesapeake</li>
+                    <li>Ships globally</li>
+                    <li>Discounted price for eastern US locations</li>
                 </ul>
             </div>
         </div>

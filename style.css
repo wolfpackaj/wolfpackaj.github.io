@@ -14,6 +14,7 @@
 #header {
 	position: relative;
 	background-color: darkgrey;
+	background-image: linear-gradient(grey, gold);
 	top: 25px;
 	margin-bottom: 50px;
 }
@@ -42,7 +43,7 @@
 	position: relative;
 	background-color: lightgray;
 	width: 95%;
-	height: 500px;
+	height: 400px;
 	margin: auto;
 	border-radius: 20px;
 }
@@ -78,6 +79,49 @@
 
 }
 
+#productbuttons {
+	position: relative;
+	width: 80%;
+	margin: auto;
+	height: 70px;
+}
+
+#addtocart {
+	position: absolute;
+	left: 10%;
+	background-color: orange;
+	border-radius: 15px;
+	width: 40%;
+	text-align: center;
+	border-style: inset;
+	border-width: 3px;
+	border-color: orange;
+}
+
+#buyitnow {
+	position: absolute;
+	left: 60%;
+	background-color: gold;
+	border-radius: 15px;
+	width: 40%;
+	text-align: center;
+	border-style: inset;
+	border-width: 3px;
+	border-color: gold;
+}
+
+#sarcasm {
+	position: relative;
+	display: none;
+	text-align: center;
+	background-color: yellow;
+	padding: 5px;
+	border-radius: 15px;
+	border-style: inset;
+	border-width: 3px;
+	border-color: yellow;
+}
+
 .productundertitletext {
 
 }
@@ -104,7 +148,7 @@
 #producttable {
 	width: 100%;
 	margin: auto;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .frontproductimage {
